@@ -1,0 +1,16 @@
+.hero-area {
+  background-image: url(../../../../assets/banner.png);
+  height: 620px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .hero-area {
+    background-image: url(../../../../assets/banner.png);
+    height: 860px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

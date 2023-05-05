@@ -1,0 +1,16 @@
+.bg-banner {
+  background-image: url(../../../../src/assets/banner.png);
+  height: 1070px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .bg-banner {
+    background-image: url(../../../../src/assets/banner.png);
+    height: 2250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
